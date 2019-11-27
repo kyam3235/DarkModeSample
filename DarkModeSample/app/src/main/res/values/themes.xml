@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="MyTheme.DayNight" parent="Base.MyTheme" />
+    <!--ここがないと実行時エラーになるよ-->
+    <!--java.lang.RuntimeException: Unable to start activity ComponentInfo{jp.kyamlab.darkmodesample/jp.kyamlab.darkmodesample.MainActivity}: java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.-->
+    <style name="AppTheme.DayNight" parent="Base.AppTheme" />
 
-    <style name="Base.MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!--Baseがないとビルドエラーになるよ = Duplicate resources-->
+    <style name="Base.AppTheme" parent="Theme.AppCompat.DayNight">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:background">@color/colorBackground</item>
