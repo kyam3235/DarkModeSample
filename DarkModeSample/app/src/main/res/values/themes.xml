@@ -6,7 +6,7 @@
     <style name="AppTheme.DayNight" parent="Base.AppTheme" />
 
     <!--Baseがないとビルドエラーになるよ = Duplicate resources-->
-    <style name="Base.AppTheme" parent="Theme.AppCompat.DayNight">
+    <style name="Base.AppTheme" parent="Theme.MaterialComponents.DayNight">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:background">@color/colorBackground</item>
