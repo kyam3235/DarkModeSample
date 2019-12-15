@@ -2,4 +2,6 @@
     <string name="app_name">DarkModeSample</string>
     <string name="button">Button</string>
     <string name="disable">Disable</string>
+    <string name="material_button">Material Button</string>
+    <string name="material_disable">Material Disable</string>
 </resources>
