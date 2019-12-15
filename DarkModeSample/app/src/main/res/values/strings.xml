@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DarkModeSample</string>
+    <string name="button">Button</string>
+    <string name="disable">Disable</string>
 </resources>
